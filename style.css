@@ -382,7 +382,7 @@ p {
 
 /* -- RTL Support -- */
 [dir="rtl"] .content-card::before { text-align: right; }
-[dir="rtl"] .navigation { justify-content: space-between; flex-direction: row-reverse; }
+[dir="rtl"] .navigation { justify-content: flex-start; flex-direction: row-reverse; }
 [dir="rtl"] .consent-container, [dir="rtl"] .language-option { flex-direction: row-reverse; }
 [dir="rtl"] .tutor-card .option-check { right: auto; left: 8px; }
 
